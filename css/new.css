@@ -1,0 +1,66 @@
+.sservice-card {
+      background: #fff;
+      border-radius: 16px;
+      padding: 30px 20px;
+      text-align: center;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.07);
+      transition: all 0.4s ease;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+#sservices {
+      padding: 10px 0;
+    }
+    .sservice-card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+      background: linear-gradient(145deg, #f8f9fa, #ffffff);
+    }
+
+    .sservice-icon {
+      background-color: #9aaa76;
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto 20px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .sservice-icon i {
+      font-size: 28px;
+      color: #fff;
+    }
+
+    .sservice-text {
+      flex-grow: 1;
+    }
+
+    /* Fix card height inside column */
+    .equal-height {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+    }
+
+    .equal-height .service-card {
+      flex-grow: 1;
+    }
+   
+    .ccard{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 300px;
+        margin: 10px;
+        padding: 30px;
+        
+    }
+    #bu {
+    list-style: none;
+    padding-left: 0;
+  }
